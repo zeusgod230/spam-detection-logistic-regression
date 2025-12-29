@@ -6,7 +6,7 @@ The project focuses on understanding the **end-to-end ML workflow**—from data 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Spam detection is a binary classification problem.  
 In this project, a machine learning model is trained on numerical features extracted from email content to predict whether an email is spam.
@@ -15,7 +15,7 @@ A **scikit-learn Pipeline** is used to keep preprocessing and modeling clean, mo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - NumPy  
@@ -24,5 +24,12 @@ A **scikit-learn Pipeline** is used to keep preprocessing and modeling clean, mo
 
 ---
 
-## 📂 Repository Structure
-
+##  Repository Structure
+---
+├── Data/
+│ └── spam.csv
+├── Notebook/
+│ └── email_spam.ipynb
+├── README.md
+└── requirements.txt
+----
