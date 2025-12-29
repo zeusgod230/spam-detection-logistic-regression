@@ -25,11 +25,48 @@ A **scikit-learn Pipeline** is used to keep preprocessing and modeling clean, mo
 ---
 
 ##  Repository Structure
----
+``` bash
 ├── Data/
 │ └── spam.csv
 ├── Notebook/
 │ └── email_spam.ipynb
 ├── README.md
 └── requirements.txt
-----
+```
+
+---
+
+## ⚙️ Model Details
+
+- **Model:** Logistic Regression  
+- **Approach:**  
+  - Train–test split  
+  - Pipeline-based modeling  
+  - Proper evaluation using multiple metrics  
+
+This model serves as a strong baseline for spam email classification.
+
+---
+
+## 📊 Evaluation Metrics
+
+The model is evaluated using:
+
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+- Confusion Matrix  
+
+This avoids relying on accuracy alone, which is important for imbalanced classification problems like spam detection.
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository  
+2. Install dependencies:
+---
+```
+pip install -r requirements.txt
+```
