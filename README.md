@@ -1,4 +1,4 @@
-# 📧 Spam Email Classification using Machine Learning
+#  Spam Email Classification using Machine Learning
 
 This repository contains a beginner-friendly machine learning project that classifies emails as **spam** or **not spam** using classical ML techniques.
 
@@ -36,7 +36,7 @@ A **scikit-learn Pipeline** is used to keep preprocessing and modeling clean, mo
 
 ---
 
-## ⚙️ Model Details
+## Model Details
 
 - **Model:** Logistic Regression  
 - **Approach:**  
@@ -48,7 +48,7 @@ This model serves as a strong baseline for spam email classification.
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 The model is evaluated using:
 
@@ -62,7 +62,7 @@ This avoids relying on accuracy alone, which is important for imbalanced classif
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository  
 2. Install dependencies:
